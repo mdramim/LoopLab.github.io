@@ -1,0 +1,52 @@
+body{
+    background: #333;
+    color:#fff;
+}
+.navbar{
+    border-bottom:4px solid #008ed6;
+    background: #212529;
+    opacity:0.7;
+}
+#home-top-section{
+    background-image: url('img/home.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    min-height:700px;
+}
+.dark-overlay{
+    background:rgba(0,0,0,0.7);
+    min-height:700px;
+}
+i.ramim{
+    background:#fff;
+    color:#008ed6;
+    padding:4px;
+    font-size: 30px;
+    border-radius:5px;
+}
+.card-form{
+    opacity:0.8;
+}
+.home-inner{
+    padding-top:150px;
+}
+p{
+    font-size:18px;
+}
+i.ullah{
+    background:#000;
+    opacity:0.8;
+    color:#fff;
+    padding:4px;
+    font-size: 30px;
+    border-radius:5px;
+}
+
+
+
+
+@media(max-width:768px){
+    #home-section h1{
+        font-size:36px;
+    }
+}
